@@ -1,0 +1,5 @@
+1、在项目主目录的urls.py文件中urlpatterns中写下一下内容：
+url(r'^home/', views.home),
+2、在应用文件夹的views 写对应函数home(request);并在templates目录下对应html文件
+
+
